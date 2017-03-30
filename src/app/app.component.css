@@ -1,0 +1,30 @@
+.multiSelectOutline {
+    /*display: table;*/
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+}
+
+button.remove {
+    border: none;
+    background: transparent;
+    padding: 0;
+}
+
+.multiSelectOutline > span {
+    margin: 2px;
+}
+
+input {
+    border: none;
+    flex: 1 1 auto;
+    align-self: auto;
+}
+
+input:focus{
+    outline: none;
+}
+
+.close {
+    float: initial;
+}
